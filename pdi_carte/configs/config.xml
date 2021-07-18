@@ -1,0 +1,10 @@
+<slave_config>
+    <slaveserver>
+        <name>Master</name>
+        <hostname>0.0.0.0</hostname>
+        <port>9090</port>
+        <username>cluster</username>
+        <password>cluster</password>
+        <master>Y</master>
+    </slaveserver>
+</slave_config>
