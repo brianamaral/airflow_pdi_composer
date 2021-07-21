@@ -4,5 +4,5 @@ RUN curl https://ufpr.dl.sourceforge.net/project/pentaho/Pentaho%209.0/client-to
 && unzip pdi.zip
 WORKDIR /data-integration
 COPY ./configs/ .
+EXPOSE 9090
 CMD [ "./carte.sh", "config.xml" ]
-EXPOSE 8080

@@ -156,6 +156,8 @@
         #image: pdi
         ports:
             - 9090:9090
+        volumes: 
+          - "./pdi_carte/jobs:/data-integration/jobs/"
     
     volumes:
       postgres-db-volume:
