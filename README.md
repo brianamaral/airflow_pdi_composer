@@ -25,7 +25,7 @@ sudo apt get docker
     <slaveserver>
         <name>Master</name>
         <hostname>0.0.0.0</hostname>
-        <port>8080</port>
+        <port>9090</port>
         <username>cluster</username>
         <password>cluster</password>
         <master>Y</master>
